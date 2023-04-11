@@ -18,7 +18,7 @@ const Navbar = () => {
         <li className="p-4">About</li>
         <li className="p-4">Contact</li>
       </ul>
-      <div onClick={handleNav} className="block md:hidden">
+      <div onClick={handleNav} className="block md:hidden hover:cursor-pointer">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
       <ul
@@ -28,11 +28,19 @@ const Navbar = () => {
             : "ease-in-out duration-500 fixed left-[-100%]"
         }
       >
-        <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">REACT.</h1>
-        <li className="p-4 border-b border-gray-600">Home</li>
-        <li className="p-4 border-b border-gray-600">Company</li>
-        <li className="p-4 border-b border-gray-600">Resources</li>
-        <li className="p-4 border-b border-gray-600">About</li>
+        <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">FinFi.</h1>
+        <li className="p-4 border-b border-gray-600 hover:text-[#00df9a] hover:cursor-pointer transition-all duration-300 ease-in-out">
+          Home
+        </li>
+        <li className="p-4 border-b border-gray-600 hover:text-[#00df9a] hover:cursor-pointer transition-all duration-300 ease-in-out">
+          Company
+        </li>
+        <li className="p-4 border-b border-gray-600 hover:text-[#00df9a] hover:cursor-pointer transition-all duration-300 ease-in-out">
+          Resources
+        </li>
+        <li className="p-4 border-b border-gray-600 hover:text-[#00df9a] hover:cursor-pointer transition-all duration-300 ease-in-out">
+          About
+        </li>
         <li className="p-4">Contact</li>
       </ul>
     </div>
