@@ -8,16 +8,16 @@ const Hero = () => {
         <p className="text-[#00df9a] font-bold p-2">
           GROWING WITH PRIVATE PRACTICES
         </p>
-        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
-          Grow with confidence.
+        <h1 className="w-full md:text-8xl sm:text-5xl text-3xl font-bold md:py-6">
+          Book with confidence.
         </h1>
-        <div className="flex justify-center items-center">
-          <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
-            Convenient, reliable booking systems for
+        <div className="flex justify-center items-center pr-3">
+          <p className="md:text-3xl sm:text-2xl text-l font-bold py-4">
+            Great booking systems for
           </p>
           <Typed
-            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2"
-            strings={["Doctors", "Dentists", "Physios", "Chiropractor"]}
+            className="md:text-3xl sm:text-2xl text-l font-bold md:pl-1 md:pt-[1rem] lg:pl-[0.5rem] pb-3 pl-3"
+            strings={["Doctors", "Dentists", "Physios"]}
             typeSpeed={120}
             backSpeed={140}
             loop
@@ -26,7 +26,7 @@ const Hero = () => {
         <p className="md:text-2xl text-xl font-bold text-gray-500">
           Manage your bookings easier and make your life easier.
         </p>
-        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black hover:scale-105 duration-300 ease-in-out">
+        <button className="bg-[#00df9a] w-[210px] mt-[3rem] rounded-md font-medium my-6 mx-auto py-3 text-black hover:scale-105 duration-300 ease-in-out">
           Get Started
         </button>
       </div>

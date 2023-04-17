@@ -12,11 +12,12 @@ const Analytics = () => {
             Manage Data Analytics Centrally
           </h1>
           <p>
-            Our Data Analytics Dashboard empowers you to manage your data
-            centrally and make informed decisions quickly. With real-time
-            insights and customizable reports, you can optimize your strategies
-            and stay ahead of the competition. Say goodbye to the guesswork and
-            hello to data-driven success.
+            Our Booking Management Dashboard empowers you to manage your private
+            practice bookings centrally and make informed decisions quickly.
+            With real-time insights and customizable reports, you can optimize
+            your scheduling strategies and stay ahead of the game. Say goodbye
+            to the hassle of manual booking and hello to a streamlined,
+            data-driven approach to success.
           </p>
           <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 hover:scale-105 duration-300 ease-in-out">
             Get Started

@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
       <h1 className="w-full text-3xl font-bold text-[#00df9a] hover:cursor-pointer">
-        FinFi.
+        BookIt.
       </h1>
       {/* <ul className="hidden md:flex">
         <li className="p-4 hover:text-[#00df9a] hover:cursor-pointer transition-all duration-300 ease-in-out">
