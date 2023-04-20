@@ -17,7 +17,7 @@ const Hero = () => {
           </p>
           <Typed
             className="md:text-3xl sm:text-2xl text-l font-bold md:pl-1 md:pt-[1rem] lg:pl-[0.5rem] pb-3 pl-3"
-            strings={["Doctors", "Dentists", "Physios"]}
+            strings={["Physios", "Chiros", "Dentists"]}
             typeSpeed={120}
             backSpeed={140}
             loop
