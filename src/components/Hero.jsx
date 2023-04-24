@@ -5,10 +5,10 @@ const Hero = () => {
   return (
     <div className="text-white">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-        <p className="text-[#00df9a] font-bold p-2">
+        {/* <p className="text-[#00df9a] font-bold text-sm p-2 m-4">
           GROWING WITH PRIVATE PRACTICES
-        </p>
-        <h1 className="w-full md:text-8xl sm:text-5xl text-3xl font-bold md:py-6">
+        </p> */}
+        <h1 className="w-full md:text-8xl sm:text-5xl text-3xl font-bold md:py-6 mt-10">
           Book with confidence.
         </h1>
         <div className="flex justify-center items-center pr-3">
